@@ -1,3 +1,5 @@
+from https://github.com/thenetcircle/faiss4j
+
 #安装cpu版本
 #更新conda
 
