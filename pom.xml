@@ -10,5 +10,6 @@
   <description>faiss-plus</description>
   <modules>
     <module>faiss-plus-core</module>
+    <module>faiss-plus-demo</module>
   </modules>
 </project>
