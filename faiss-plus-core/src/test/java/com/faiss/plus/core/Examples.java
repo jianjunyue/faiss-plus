@@ -9,13 +9,15 @@ import static com.faiss.plus.util.IndexHelper.*;
 public class Examples {
 
 	public static void main(String[] args) {
+		load();
 		simpleTest();
 //		testFlat();
 		System.out.println("Hello World!");
 	}
 
 	public static void load() {
-		System.load(Paths.get("./swigfaiss4j.so").toAbsolutePath().toString());
+		System.out.println("start load!");
+		System.load(Paths.get("./libfaissjni.so").toAbsolutePath().toString());
 		System.loadLibrary("faiss");
 	}
 
