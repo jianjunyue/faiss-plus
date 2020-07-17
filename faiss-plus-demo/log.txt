@@ -3,3 +3,4 @@ search 5 first vector of xbnull
 search 5 first vector of xbnull
 search 5 first vector of xbnull
 static null
+static null

@@ -13,6 +13,8 @@ import java.util.Random;
 
 import static com.bj58.spider.faiss4j.IndexHelper.*;
 
+//java -cp faiss-plus-demo-7.jar com.bj58.spider.ExamplesTest start
+
 public class ExamplesTest {
 //	private static Logger log = LoggerFactory.getLogger(ExamplesTest.class);
 
