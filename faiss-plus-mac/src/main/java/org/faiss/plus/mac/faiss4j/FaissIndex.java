@@ -19,7 +19,9 @@ public class FaissIndex {
 
     static {
         try {
-            System.loadLibrary("swigfaiss4j");
+//            System.loadLibrary("swigfaiss4j");
+        String	path = "/Users/apple/Documents/repository/faiss4java/libswigfaiss4j.dylib";
+			System.load(path);
         } catch (Exception ex) {
             throw new java.lang.RuntimeException("please make sure libs:[faiss, swigfaiss4j] in java.library.path");
         }

@@ -18,6 +18,10 @@ import static org.faiss.plus.mac.faiss4j.IndexHelper.*;
 public class ExamplesTest {
 //	private static Logger log = LoggerFactory.getLogger(ExamplesTest.class);
 
+	public static void init() {
+		System.out.println("faiss start");
+	}
+	
 	public static void main(String argv[]) {
 		log("search 5 first vector of xb");
 		log("search 5 first vector of xb");
