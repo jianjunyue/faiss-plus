@@ -27,7 +27,7 @@ public class ExamplesTest {
 	}
 
 	public static void log(String key) {
-		log(key, "null");
+		log(key, " ");
 	}
 
 	public static void log(String key, Object value) {
@@ -67,6 +67,10 @@ public class ExamplesTest {
 		} catch (Exception e) {
 			log("staticstaticstatic");
 		}
+	}
+	
+	public static void init() {
+		
 	}
 
 	public static void testFlat() {
